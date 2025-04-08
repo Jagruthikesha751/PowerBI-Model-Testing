@@ -178,22 +178,22 @@
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"7f8bdd380fb9c305afa4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1061.125541125541,\"height\":543.030303030303,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"HOLDING_MPSIF.Instrument Identifier\"},{\"queryRef\":\"Sum(HOLDING_MPSIF.MPSIF MV %)\"},{\"queryRef\":\"Sum(HOLDING_IBOXXS.IBOXXS MV %)\"},{\"queryRef\":\"HOLDING_MPSIF.MPSIF MV % minus IBOXXS MV %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h1\",\"Entity\":\"HOLDING_MPSIF\",\"Type\":0},{\"Name\":\"h\",\"Entity\":\"HOLDING_IBOXXS\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"Instrument Identifier\"},\"Name\":\"HOLDING_MPSIF.Instrument Identifier\",\"NativeReferenceName\":\"Instrument Identifier\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"MPSIF MV % (Dirty)\"}},\"Function\":0},\"Name\":\"Sum(HOLDING_MPSIF.MPSIF MV %)\",\"NativeReferenceName\":\"Sum of MPSIF MV %\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"IBOXXS MV % (Dirty)\"}},\"Function\":0},\"Name\":\"Sum(HOLDING_IBOXXS.IBOXXS MV %)\",\"NativeReferenceName\":\"Sum of IBOXXS MV %\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"MPSIF MV % - IBOXXS MV %\"},\"Name\":\"HOLDING_MPSIF.MPSIF MV % minus IBOXXS MV %\",\"NativeReferenceName\":\"MPSIF MV % - IBOXXS MV %\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"33897b80cdce20d8483b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":844.4776119402985,\"y\":49.25373134328358,\"z\":1001,\"width\":421.7910447761194,\"height\":454.92537313432837,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(HOLDING_2.Accrued)\"},{\"queryRef\":\"HOLDING_2.ID_DATE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HOLDING_2\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Accrued\"}},\"Function\":5},\"Name\":\"Sum(HOLDING_2.Accrued)\",\"NativeReferenceName\":\"Count of Accrued\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"ID_DATE\"},\"Name\":\"HOLDING_2.ID_DATE\",\"NativeReferenceName\":\"ID_DATE\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 543.03,
-          "width": 1061.13,
+          "height": 454.93,
+          "width": 421.79,
+          "x": 844.48,
+          "y": 49.25,
+          "z": 1001.00
+        },
+        {
+          "config": "{\"name\":\"7f8bdd380fb9c305afa4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":805.9701492537313,\"height\":542.6865671641791,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"HOLDING_MPSIF.Instrument Identifier\"},{\"queryRef\":\"Sum(HOLDING_MPSIF.MPSIF MV %)\"},{\"queryRef\":\"Sum(HOLDING_IBOXXS.IBOXXS MV %)\"},{\"queryRef\":\"HOLDING_MPSIF.MPSIF MV % minus IBOXXS MV %\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h1\",\"Entity\":\"HOLDING_MPSIF\",\"Type\":0},{\"Name\":\"h\",\"Entity\":\"HOLDING_IBOXXS\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"Instrument Identifier\"},\"Name\":\"HOLDING_MPSIF.Instrument Identifier\",\"NativeReferenceName\":\"Instrument Identifier\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"MPSIF MV % (Dirty)\"}},\"Function\":0},\"Name\":\"Sum(HOLDING_MPSIF.MPSIF MV %)\",\"NativeReferenceName\":\"Sum of MPSIF MV %\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"IBOXXS MV % (Dirty)\"}},\"Function\":0},\"Name\":\"Sum(HOLDING_IBOXXS.IBOXXS MV %)\",\"NativeReferenceName\":\"Sum of IBOXXS MV %\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h1\"}},\"Property\":\"MPSIF MV % - IBOXXS MV %\"},\"Name\":\"HOLDING_MPSIF.MPSIF MV % minus IBOXXS MV %\",\"NativeReferenceName\":\"MPSIF MV % - IBOXXS MV %\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 542.69,
+          "width": 805.97,
           "x": 0.00,
           "y": 0.00,
           "z": 0.00
-        },
-        {
-          "config": "{\"name\":\"d2b8f2672203db8e22c8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":553,\"width\":1061,\"height\":167,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 167.00,
-          "width": 1061.00,
-          "x": 0.00,
-          "y": 553.00,
-          "z": 1000.00
         }
       ],
       "width": 1280.00
