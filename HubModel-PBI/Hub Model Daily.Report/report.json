@@ -225,6 +225,15 @@
           "z": 0.00
         },
         {
+          "config": "{\"name\":\"793e6b6970d049fd127b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":756.7164179104477,\"y\":320.5970149253731,\"z\":2001,\"width\":493.4328358208955,\"height\":289.25373134328356,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"GICS_MATRIX_2.GICS Industry\"},{\"queryRef\":\"GICS_MATRIX_2.GICS Industry Group\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"GICS_MATRIX_2\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"GICS Industry\"},\"Name\":\"GICS_MATRIX_2.GICS Industry\",\"NativeReferenceName\":\"GICS Industry\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"GICS Industry Group\"},\"Name\":\"GICS_MATRIX_2.GICS Industry Group\",\"NativeReferenceName\":\"GICS Industry Group\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"239.62686176651852D\"}}}},\"selector\":{\"metadata\":\"GICS_MATRIX_2.GICS Industry\"}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 289.25,
+          "width": 493.43,
+          "x": 756.72,
+          "y": 320.60,
+          "z": 2001.00
+        },
+        {
           "config": "{\"name\":\"c8c1b895fdfb02507e10\",\"layouts\":[{\"id\":0,\"position\":{\"x\":335.0841750841751,\"y\":0,\"z\":1000,\"width\":280.13468013468014,\"height\":84.04040404040404,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"HOLDING.Period End Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HOLDING\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Period End Date\"},\"Name\":\"HOLDING.Period End Date\",\"NativeReferenceName\":\"Period End Date\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Period End Date\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HOLDING\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Period End Date\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"datetime'2024-07-02T00:00:00'\"}}]]}}}]}}}}]}}}",
           "filters": "[]",
           "height": 84.04,

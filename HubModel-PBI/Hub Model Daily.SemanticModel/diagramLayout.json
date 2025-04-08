@@ -798,6 +798,16 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "GICS_MATRIX_2",
+          "nodeLineageTag": "4f3aff46-f842-40e1-9886-7c195b83fc68",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
