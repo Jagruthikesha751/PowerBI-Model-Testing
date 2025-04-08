@@ -801,17 +801,10 @@
         },
         {
           "location": {},
-
-          "nodeIndex": "HOLDING_2",
-          "nodeLineageTag": "8cb9b918-9bcd-4ace-b7bd-ae9681a3d32f",
-          "size": {
-            "height": 300,
-
           "nodeIndex": "GICS_MATRIX_2",
           "nodeLineageTag": "4f3aff46-f842-40e1-9886-7c195b83fc68",
           "size": {
             "height": 248,
-
             "width": 234
           },
           "zIndex": 0
